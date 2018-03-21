@@ -1,15 +1,15 @@
-import * as React from 'react';
-import './App.css';
+import React from 'react';
 
 import CssBaseline from 'material-ui/CssBaseline';
+import AppBar from '../app-bar';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <CssBaseline />
-        <h1>Hello World</h1>
-      </div>
+        <AppBar />
+      </>
     );
   }
 }
